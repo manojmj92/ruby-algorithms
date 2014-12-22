@@ -10,3 +10,5 @@ You can also contribute to the repo by adding new questions.
 INDEX
 =====
 
+1. Remove duplicate characters from a string - 22/12/2014
+
