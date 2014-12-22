@@ -30,3 +30,9 @@ puts "Enter the string\n"
 string = gets.chomp
 
 RemoveDuplicates.new(string)
+
+==begin
+INPUT => OUTPUT
+rubyy => ruby
+helloo => helo
+==end
