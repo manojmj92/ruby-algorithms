@@ -12,5 +12,11 @@ If you feel any of the questions can be answered in a better way, send a pull re
 INDEX
 =====
 
-1. Remove duplicate characters from a string - 22/12/2014
+1. [Remove duplicate characters from a string][1] - 22/12/2014
+
+
+
+
+
+[1]: https://github.com/manojmj92/ruby-algorithms/blob/master/1.%20remove_duplicates_from_string.rb
 
