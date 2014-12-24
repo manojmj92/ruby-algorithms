@@ -1,6 +1,6 @@
 def find(array,desired_sum)
 	seen_numbers = [] #to keep track of already visited numbers
-	sets = [] #to store set of numbers
+	sets = [] #to store set of number
 	array.each do |number|
 		unless seen_numbers.include? number
 			other_number = desired_sum-number
