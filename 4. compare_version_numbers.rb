@@ -27,12 +27,16 @@ def compare_versions(v1,v2)
 			return -1
 		end		
 	end	
-	v1_array.length > v2_array.length ? (return 1) : (return -1)
+	if v1_array.length > v2_array.length
+		return 1
+	elsif v1_array.length < v2_array.length
+		return -1
+	end
 	return 0
 end
 
 
 v1 = "3.6.1"
-v2 = "3.6.0.7"
+v2 = "3.6.1"
 
 puts "Answer is " + compare_versions(v1,v2).to_s
